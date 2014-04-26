@@ -7,11 +7,11 @@ README
 ======================================================================================
 1. Extract the Samsung data
 2. Place the script in the root folder of the Samsung data
-   a. The default directory would be ../UCI HAR Dataset
+   1. The default directory would be ../UCI HAR Dataset
 3. Use RStudio or R to run the script
-   a. Source the R script: import_initial.R
-   b. Install the R package "reshape2": intall.packages("reshape2")
-   c. Run the script by calling import_initial() from the command line
+   1. Source the R script: import_initial.R
+   2. Install the R package "reshape2": intall.packages("reshape2")
+   3. Run the script by calling import_initial() from the command line
 4. The file tidydata.txt will be generated in the folder where the script is placed
 
 
