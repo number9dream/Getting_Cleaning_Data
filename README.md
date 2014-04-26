@@ -21,25 +21,25 @@ This section describes the columns expected in the tidy dataset output from the 
 
 Each row in the tidy dataset describes a Subject performing an Activity; the columns describe the mean (average) values of the original dataset for the mean and std values. As the instructions are to include only the mean and std values in the original dataset, hence only the columns with -mean() and -std() are included in this tidy dataset.
 
-Subject - unique numeric ID to denote a single person
-Activity_Id - unique numeric ID to denote the activity being carried out
-Activity - corresponding description for the Activity_Id
+**Subject** - unique numeric ID to denote a single person
+**Activity_Id** - unique numeric ID to denote the activity being carried out
+**Activity** - corresponding description for the Activity_Id
 
-tBodyAccMean-XYZ,tBodyAccStd-XYZ and tGravityAccMean-XYZ,tGravityAccStd-XYZ represent the values separated into body and gravity acceleration signals from the accelerometer and gyroscope 3-axial raw signals.
+**tBodyAccMean-XYZ,tBodyAccStd-XYZ and tGravityAccMean-XYZ,tGravityAccStd-XYZ** represent the values separated into body and gravity acceleration signals from the accelerometer and gyroscope 3-axial raw signals.
 
-tBodyAccJerkMean-XYZ,tBodyAccJerkStd-XYZ and tBodyGyroJerkMean-XYZ,tBodyGyroJerkStd-XYZ represent the body linear acceleration and angular velocity.
+**tBodyAccJerkMean-XYZ,tBodyAccJerkStd-XYZ and tBodyGyroJerkMean-XYZ,tBodyGyroJerkStd-XYZ** represent the body linear acceleration and angular velocity.
 
 The below columns represent the magnitude of the previous 3 dimensional signals calculated using the Euclidean norm. 
-tBodyAccMagMean,tBodyAccMagStd 
-tGravityAccMagMean,tGravityAccMagStd
-tBodyAccJerkMagMean,tBodyAccJerkMagStd
-tBodyGyroMagMean,tBodyGyroMagStd
-tBodyGyroJerkMagMean,tBodyGyroJerkMagStd
+**tBodyAccMagMean,tBodyAccMagStd** 
+**tGravityAccMagMean,tGravityAccMagStd**
+**tBodyAccJerkMagMean,tBodyAccJerkMagStd**
+**tBodyGyroMagMean,tBodyGyroMagStd**
+**tBodyGyroJerkMagMean,tBodyGyroJerkMagStd**
 
 The below columns represent the values after a Fast Fourier Transform (FFT) was applied to some of the previous signal values.
-fBodyAccMean-XYZ,fBodyAccStd-XYZ
-fBodyAccJerkMean-XYZ,fBodyAccJerkStd-XYZ
-fBodyGyroMean-XYZ,fBodyGyroStd-XYZ
-fBodyAccJerkMagMean,fBodyAccJerkMagStd
-fBodyGyroMagMean,fBodyGyroMagStd
-fBodyGyroJerkMagMean,fBodyGyroJerkMagStd
+**fBodyAccMean-XYZ,fBodyAccStd-XYZ**
+**fBodyAccJerkMean-XYZ,fBodyAccJerkStd-XYZ**
+**fBodyGyroMean-XYZ,fBodyGyroStd-XYZ**
+**fBodyAccJerkMagMean,fBodyAccJerkMagStd**
+**fBodyGyroMagMean,fBodyGyroMagStd**
+**fBodyGyroJerkMagMean,fBodyGyroJerkMagStd**
